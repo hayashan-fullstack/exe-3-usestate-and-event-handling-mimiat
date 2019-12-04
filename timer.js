@@ -19,7 +19,7 @@ timeout.current = setTimeout(() => {
     else{
         setSeconds(seconds + 1)
 }
- } , 100)
+ } , 1000)
 
 return(
     <div style = {{margin: '20%'}}>
